@@ -1,0 +1,23 @@
+#string indexing
+str1 = "hello world"
+print(str1)
+print(str1[0])
+print(str1[1])
+print(str1[-1])
+print(str1[0:-1])
+print(str1[0:-2])
+print(str1[0:-3])
+print(str1[::-1])
+print(str1[-1:-6:-1])
+print(str1[::-1])
+print(str1.lower())
+print(str1.upper())
+print(str1.capitalize())
+print(str1.swapcase())
+print(str1.title())
+print(str1.isupper())
+print(str1.islower())
+print(str1.isalpha())
+str2 = "helloworld"
+print(str2.isalpha())
+print(str2.find('z'))
